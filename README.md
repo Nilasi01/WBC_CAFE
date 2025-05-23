@@ -20,7 +20,8 @@ Welcome to the official website project for **Towa Cafe**, a stylish and respons
 - Google Fonts (Philosopher)
 
 ## 📸 Screenshots
-*(Add screenshots if you'd like – optional)*
+
+https://github.com/Nilasi01/WBC_CAFE/blob/main/Home_Page.png
 
 ## 📂 Folder Structure
 
