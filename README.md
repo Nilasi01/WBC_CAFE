@@ -1,2 +1,2 @@
-# WBC_CAFE
-A responsive café website built with HTML and CSS, featuring a menu, news section, and contact form. Designed with mobile-first responsiveness and clean layout styling.
+# WCB_CAFE_
+メニュー、ニュース セクション、お問い合わせフォームを備えた、HTML と CSS で構築されたレスポンシブなカフェ Web サイト。モバイルファーストの応答性とクリーンなレイアウト スタイルを考慮して設計されています。

@@ -1,0 +1,420 @@
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
+  line-height: 1.7;
+  color: #432;
+  margin: 0;
+  padding: 0;
+  background-color: #fffdf8;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.font-english {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: normal;
+}
+
+
+.page-title,
+.heading-large {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+  line-height: 1.4;
+}
+
+.heading-large {
+  margin-bottom: 1rem;
+}
+
+.menu12 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+
+.sentence12 {
+  text-align: center;
+}
+
+
+.btn {
+  display: inline-block;
+  font-size: 1.5rem;
+  background-color: #0bd;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #0090aa;
+}
+
+
+.page-header {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.logo {
+  width: 210px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.main-nav a {
+  color: #432;
+}
+
+.main-nav a:hover {
+  color: #0bd;
+}
+
+
+.cover {
+  background-size: cover;
+  background-position: center bottom;
+  height: 800px;
+}
+
+.cover-home {
+  background-image: url(images/images/cover-home-s.webp);
+}
+
+.cover-menu {
+  background-image: url(images/images/cover-menu-l.webp);
+}
+
+.cover-contact {
+  background-image: url(images/images/cover-contact-l.webp);
+}
+
+.cover-news {
+  background-image: url(images/images/cover-news-s.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 5rem;
+}
+
+.about {
+  max-width: 736px;
+  padding: 0 1.5rem;
+  margin: 3rem auto 0;
+}
+
+.about p {
+  margin-bottom: 3rem;
+}
+
+.page-footer {
+  background-image: url(images/images/cover-menu-s.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 12rem;
+}
+
+
+.toast-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.menu-section {
+  padding: 2rem;
+  background-color: #fffbe7;
+  text-align: center;
+  max-width: 900px;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.menu-item {
+  text-align: center;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.box {
+  text-align: center;
+}
+
+.menu-item img,
+.box img {
+  margin: 1rem auto 0;
+  display: block;
+  max-width: 80%;
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.example {
+  background-color: beige;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 3rem auto 1.5rem;
+  max-width: 900px;
+  border-radius: 8px;
+}
+
+
+.info {
+  width: 100%;
+  max-width: 544px;
+  margin: auto;
+  padding: 0 1.5rem;
+  border-spacing: 0;
+}
+
+.info th,
+.info td {
+  border-bottom: 1px solid #c9c2bc;
+  padding: 1rem;
+}
+
+.info th {
+  text-align: left;
+  font-weight: normal;
+}
+
+.info td {
+  padding: 1rem 0;
+}
+
+
+.copyright {
+  background-color: #432;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+
+.contact-info {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fffbe7;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.contact-info a {
+  color: #0bd;
+}
+
+.contact-section h2,
+.contact-section h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.map-container {
+  margin-bottom: 2rem;
+}
+
+.hours {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/images/cover-contact-s.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 5rem;
+}
+
+.contact-form label {
+  margin: 0.5rem 0 0.25rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-form button {
+  padding: 0.75rem 1.5rem;
+  background-color: #0bd;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0090aa;
+}
+
+
+.news-section {
+  padding: 4rem 1.5rem;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #c0392b;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  color: #555;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.news-item {
+  background-color: #fffbe7;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.news-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.news-item p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.news-date {
+  font-size: 0.9rem;
+  color: #999;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+
+
+.copyright {
+  background-color: #432;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .page-title,
+  .heading-large {
+    font-size: 2rem;
+  }
+
+  .menu12 {
+    font-size: 2rem;
+  }
+
+  .menu-section {
+    padding: 1rem;
+  }
+
+  .toast-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-item {
+    padding: 1rem;
+  }
+
+  .box img {
+    max-width: 80%;
+  }
+
+  .contact-form {
+    padding: 2rem 1rem;
+  }
+
+  .cover {
+    height: 400px;
+  }
+
+  .news-item {
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .example {
+    display: none;
+  }
+}
+
+
+
