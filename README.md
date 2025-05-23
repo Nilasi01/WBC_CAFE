@@ -21,7 +21,9 @@ Welcome to the official website project for **Towa Cafe**, a stylish and respons
 
 ## 📸 Screenshots
 
-https://github.com/Nilasi01/WBC_CAFE/blob/main/Home_Page.png
+
+
+![image alt](https://github.com/Nilasi01/WBC_CAFE/blob/main/Home_Page.png)
 
 ## 📂 Folder Structure
 
