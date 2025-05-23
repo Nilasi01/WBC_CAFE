@@ -17,13 +17,19 @@ Welcome to the official website project for **Towa Cafe**, a stylish and respons
 
 - HTML5
 - CSS3 (No frameworks used)
-- Google Fonts (Philosopher)
+- Google Fots (Philosopher)
 
 ## 📸 Screenshots
+<h4>Home</h4>
+https://github.com/Nilasi01/WBC_CAFE/blob/main/Home_Page.png
+<h4>News</h4>
+https://github.com/Nilasi01/WBC_CAFE/blob/main/News_Page.png
+<h4>Menu</h4>
+https://github.com/Nilasi01/WBC_CAFE/blob/main/Menu_Page.png
+<h4>Contact</h4>
+https://github.com/Nilasi01/WBC_CAFE/blob/main/Contact_Page.png
 
 
-
-![image alt](https://github.com/Nilasi01/WBC_CAFE/blob/main/Home_Page.png)
 
 ## 📂 Folder Structure
 
